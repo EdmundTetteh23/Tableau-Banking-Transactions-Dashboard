@@ -1,3 +1,0 @@
-.csv filter=lfs diff=lfs merge=lfs -text
-Data/transactions.csv filter=lfs diff=lfs merge=lfs -text
-*.twbx filter=lfs diff=lfs merge=lfs -text
