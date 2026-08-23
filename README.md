@@ -33,16 +33,27 @@ The data architecture utilizes a multi-fact relational model built inside Tablea
 
 
 - dim_customers: Central customer hub capturing personal attributes (customer_id, name, email, phone, gender, date_of_birth, occupation, annual_income, credit_score, city, state, join_date).
+
 - fact_accounts: Operational account directory (account_id, customer_id, branch_id, account_type, balance, open_date, status).
+
 - dim_account_id: Intermediary bridge table linking bank accounts data to operational core transactions.
+
 - fact_transactions: General account transaction log (transaction_id, account_id, txn_date, txn_type, amount, channel, merchant_category).
+
 - dim_cards: Card metadata lookup (card_id, customer_id, account_id, card_type, credit_limit, issue_date, expiry_date, status).
+
 - fact_card_transactions: Card payment log capturing transaction details (card_txn_id, card_id, amount, txn_date, merchant_category, is_fraud).
+
 - fact_loans: Loan account records (loan_id, customer_id, branch_id, loan_type, loan_amount, interest_rate, term_months, start_date, status).
+
 - dim_loan_id: Intermediary bridge table connecting main loans to granular repayment schedules.
+
 - fact_loan_payments: Amortization tracking table for loan payments (payment_id, loan_id, payment_date, amount_paid, principal_component, interest_component, late_payment_flag).
+
 - fact_support_tickets: Customer service activity log (ticket_id, customer_id, date_opened, date_resolved, issue_type, status, satisfaction_score, Resolution Time Day).
+
 - dim_branches: Branch lookup (branch_id, branch_name, city, state, ifsc_code, opened_date).
+
 - dim_employees: Branch staffing directory (employee_id, branch_id, name, role, salary, hire_date).
 
 ## Dashboards and Visualizations
