@@ -86,5 +86,11 @@ The data architecture utilizes a multi-fact relational model built inside Tablea
 ## Key Business Insights
 
 ## Strategic Recommendations
+**Strategic Recommendations**
+
+- Deploy Automated Fraud Controls: Implement real-time transaction velocity caps and mandatory multi-factor authentication for high-risk card categories (ATM withdrawals, dining, and fuel) to curb the 5.2K monthly fraud cases.
+- Tighten Credit Underwriting & Early Recovery: Establish automated 30-day delinquency alerts and adjust lending criteria for personal and business loans to protect capital against the 10% combined default and write-off rate.
+- Accelerate Support Escalation Workflows: Introduce specialized routing tiers for high-volume issue types (Card Blocked and Fraud Reports) to compress the 9-day average resolution window and lift customer satisfaction scores.
+- Launch Targeted Account Reactivation Campaigns: Execute automated re-engagement workflows—such as temporary fee waivers and yield-bearing deposit promotions—aimed at transitioning the 9.5K (10%) dormant accounts back into active status.
 
 ## Tech Stack
