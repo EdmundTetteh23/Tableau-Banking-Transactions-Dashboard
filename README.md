@@ -1,4 +1,5 @@
 # Banking Transactions and Customer Analytics
+A multi-view Tableau business intelligence project evaluating customer demographics, account portfolio distribution, loan performance, card transaction velocity, and customer support efficiency across SBI branch operations to streamline branch performance and enhance service delivery.
 
 ## Table of Contents
 - [Overview](#overview)
