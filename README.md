@@ -14,12 +14,11 @@ A multi-view Tableau business intelligence project evaluating customer demograph
 
 
 ## Overview
-### Project Brief
 State Bank of India required a unified operational analytics workspace to connect fragmented transactional databases across physical branches, card processing units, loan origination desks, and customer support centers. This project structures core banking data into a relational Tableau model, delivering an executive analytics suite that enables branch managers and bank leadership to isolate operational bottlenecks, track fraud patterns, evaluate credit portfolio risk, and monitor customer service resolution performance in real time.
 
 ## Project Brief and Problem Statement
-Project Brief
-SBI Bank required a unified operational intelligence platform to consolidate fragmented data across physical branches, card processing units, credit desks, and support centers. This project delivers an interactive 5-sheet Tableau workbook that connects core banking entities into a relational model, equipping branch managers and executive leadership with real-time visibility into customer demographics, account activation health, loan portfolio risk, card fraud velocity, and customer service resolution cycles.
+### Project Brief
+SBI required a unified operational intelligence platform to consolidate fragmented data across physical branches, card processing units, credit desks, and support centers. This project delivers an interactive 5-sheet Tableau workbook that connects core banking entities into a relational model, equipping branch managers and executive leadership with real-time visibility into customer demographics, account activation health, loan portfolio risk, card fraud velocity, and customer service resolution cycles.
 
 ### Project Objectives
 - Customer Demographic Profiling: Evaluate customer wealth distribution, creditworthiness, and branch usage patterns across occupations, income brackets, and age cohorts.
