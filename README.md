@@ -60,6 +60,11 @@ The data architecture utilizes a multi-fact relational model built inside Tablea
 - dim_employees: Branch staffing directory (employee_id, branch_id, name, role, salary, hire_date).
 
 ## Tableau Calculations and Business Logic
+<img width="736" height="313" alt="Screenshot 2026-08-23 215208" src="https://github.com/user-attachments/assets/be15c4f0-e405-406b-8464-165bed60f860" />
+
+<img width="738" height="314" alt="Screenshot 2026-08-23 215233" src="https://github.com/user-attachments/assets/ace916a4-c696-4ed5-a200-0a8ee0bf367b" />
+
+<img width="736" height="315" alt="Screenshot 2026-08-23 215257" src="https://github.com/user-attachments/assets/672f4791-da78-4a33-8a78-1a7c75ed5efe" />
 
 ## Dashboards and Visualizations
 - Dashboard 1 — Customer Demographics Analysis: Executive overview displaying core customer metrics (60.0K Total Customers, 22.0K Customers with Loans, ₹1.8M Avg Income, 600 Avg Credit Score, 49 Avg Age), state map distributions, gender split (52% Male, 46% Female, 2% Other), age bracket breakdowns, occupation density, and branch customer counts.
@@ -92,6 +97,6 @@ The data architecture utilizes a multi-fact relational model built inside Tablea
 - Launch Targeted Account Reactivation Campaigns: Execute automated re-engagement workflows such as temporary fee waivers and yield-bearing deposit promotions—aimed at transitioning the 9.5K (10%) dormant accounts back into active status.
 
 ## Tech Stack
-Data Modeling: Tableau Logical Layer
-Calculations & Metrics: Tableau Calculated Fields, Dynamic Parameters
-Visualization: Tableau Desktop
+- Data Modeling: Tableau Logical Layer
+- Calculations & Metrics: Tableau Calculated Fields, Dynamic Parameters
+- Visualization: Tableau Desktop
