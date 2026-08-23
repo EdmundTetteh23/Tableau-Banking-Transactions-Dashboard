@@ -21,7 +21,7 @@ A multi-view Tableau business intelligence project evaluating customer demograph
 
 ## Data Model and Relationships
 
-## Dashboard and Visualizations
+## Dashboards and Visualizations
 
 ## Key Business Insights
 
