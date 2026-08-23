@@ -59,38 +59,39 @@ The data architecture utilizes a multi-fact relational model built inside Tablea
 
 - dim_employees: Branch staffing directory (employee_id, branch_id, name, role, salary, hire_date).
 
+## Tableau Calculations and Business Logic
+
 ## Dashboards and Visualizations
 - Dashboard 1 — Customer Demographics Analysis: Executive overview displaying core customer metrics (60.0K Total Customers, 22.0K Customers with Loans, ₹1.8M Avg Income, 600 Avg Credit Score, 49 Avg Age), state map distributions, gender split (52% Male, 46% Female, 2% Other), age bracket breakdowns, occupation density, and branch customer counts.
 <img width="1605" height="903" alt="customer" src="https://github.com/user-attachments/assets/0e9793a4-0d45-441f-8398-73d4ab86f333" />
 
-
 - Dashboard 2 — Account Analysis: Portfolio management view tracking account volume (95.0K Total Accounts, 80.7K Active Accounts across 12 States, 15 Cities, and 93 Branches), account type distributions (Savings, Current, Salary, Fixed Deposit, NRI), account status breakdowns (85% Active, 10% Dormant, 5% Closed), regional state/city maps, and branch-level filters.
 <img width="1603" height="903" alt="account" src="https://github.com/user-attachments/assets/bb012ab7-9a81-43b6-9d8f-cef12d9723ef" />
-
 
 - Dashboard 3 — Transaction Analysis: Core banking transactional view with a parameter to toggle between Transaction Amount and Number of transactions monitoring transaction channel preferences (Mobile Banking, Internet Banking, ATM, Branch, UPI), state, merchant categories, and branches.
 <img width="1605" height="904" alt="txn_amount" src="https://github.com/user-attachments/assets/81410643-bc64-42df-bc31-7aa9797eaec1" />
 
-
 - Dashboard 4 — Card Transaction Analysis: Card payment view equipped with a parameter to toggle between Card Transaction Amount  Number of Card Transactions, displaying card metrics (65.0K Cards, 57.2K Active Cards, 1.05M Card Transactions, ₹1.9B Transactions Amount, 5.2K Fraud Transactions), monthly transaction trends, card tier volume (Debit, Classic, Gold, Platinum), merchant spending categories, monthly fraud volume trends, and merchant fraud distributions.
 <img width="1590" height="891" alt="card_txn_amount" src="https://github.com/user-attachments/assets/e0b43d22-77f0-4573-bfc9-210163c5746f" />
 
-
 - Dashboard 5 — Loan Analysis: Credit portfolio workspace featuring a parameter to toggle between Loan Amount / Number of Loans  and Principal / Interest view controls, tracking total loan volume (₹9.2B Total Amount, 22.0K Loans, ₹6.2B Paid, ₹5.1B Principal Paid, ₹1.1B Interest Paid), monthly issuance trends, loan status distributions (65% Active, 25% Closed, 7% Defaulted, 3% Written Off), product distributions (Home, Personal, Business, Gold, Auto, Education), average interest rates ( approximately 11.4% - 11.6%), and term lengths ( approximately 92 - 97 months).
 <img width="1595" height="898" alt="loan_1" src="https://github.com/user-attachments/assets/e2cac491-a9c8-4893-9702-d53324702844" />
-
 
 - Dashboard 6 — Customer Support Analysis: Operational service view tracking support tickets (25.0K Total Tickets, 20.1K Resolved, 3.0K Open, 9 Days Avg Resolution Time, 3 Avg CSAT), ticket trend lines, status mix (80% Resolved, 12% Open, 8% Escalated), volume by issue type (Card Blocked, Fraud Report, Net Banking, Cheque Bounce, Loan Query), resolution time, and customer satisfaction scores by issue type.
 <img width="1597" height="897" alt="customer_support" src="https://github.com/user-attachments/assets/4b73587b-cdc6-4147-804b-135f6561bcd0" />
 
 ## Key Business Insights
+- High Account Health & Regional Concentration: Out of 95.0K accounts, 85% (80.7K) remain active, with Savings accounts leading volume (47.6K). Maharashtra (15.8K) and Madhya Pradesh (15.1K) serve as the primary regional account hubs.
+- Credit Portfolio Risk Profile: The total loan book stands at ₹9.2B across 22.0K loans. While 65% of accounts are actively performing and 25% are closed, 10% of the portfolio (7% Defaulted, 3% Written Off) represents credit loss, signaling a need for stricter underwriting on higher-risk products.
+- Card Volume & Fraud Dynamics: Total card volume reached ₹1.9B across 1.05M transactions, heavily anchored by Debit cards (31.4K active cards, ₹1.1B volume). However, 5.2K fraud transactions were flagged, with ATM Withdrawals (₹770.2K), Dining (₹763.4K), and Fuel (₹733.0K) accounting for the highest fraud loss exposure.
+- Service Bottlenecks & Customer Satisfaction: While 80% of support tickets are resolved, open (12%) and escalated (8%) tickets average a lengthy 9-day resolution timeframe. App Login and Loan Queries average lower CSAT scores (approximately 3.04 out of 5).
 
 ## Strategic Recommendations
-**Strategic Recommendations**
-
 - Deploy Automated Fraud Controls: Implement real-time transaction velocity caps and mandatory multi-factor authentication for high-risk card categories (ATM withdrawals, dining, and fuel) to curb the 5.2K monthly fraud cases.
-- Tighten Credit Underwriting & Early Recovery: Establish automated 30-day delinquency alerts and adjust lending criteria for personal and business loans to protect capital against the 10% combined default and write-off rate.
 - Accelerate Support Escalation Workflows: Introduce specialized routing tiers for high-volume issue types (Card Blocked and Fraud Reports) to compress the 9-day average resolution window and lift customer satisfaction scores.
-- Launch Targeted Account Reactivation Campaigns: Execute automated re-engagement workflows—such as temporary fee waivers and yield-bearing deposit promotions—aimed at transitioning the 9.5K (10%) dormant accounts back into active status.
+- Launch Targeted Account Reactivation Campaigns: Execute automated re-engagement workflows such as temporary fee waivers and yield-bearing deposit promotions—aimed at transitioning the 9.5K (10%) dormant accounts back into active status.
 
 ## Tech Stack
+Data Modeling: Tableau Logical Layer
+Calculations & Metrics: Tableau Calculated Fields, Dynamic Parameters
+Visualization: Tableau Desktop
