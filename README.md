@@ -76,11 +76,11 @@ The data architecture utilizes a multi-fact relational model built inside Tablea
 <img width="1590" height="891" alt="card_txn_amount" src="https://github.com/user-attachments/assets/e0b43d22-77f0-4573-bfc9-210163c5746f" />
 
 
-Dashboard 5 — Loan Analysis: Credit portfolio workspace featuring a parameter to toggle between Loan Amount / Number of Loans  and Principal / Interest view controls, tracking total loan volume (₹9.2B Total Amount, 22.0K Loans, ₹6.2B Paid, ₹5.1B Principal Paid, ₹1.1B Interest Paid), monthly issuance trends, loan status distributions (65% Active, 25% Closed, 7% Defaulted, 3% Written Off), product distributions (Home, Personal, Business, Gold, Auto, Education), average interest rates ( approximately 11.4% - 11.6%), and term lengths ( approximately 92 - 97 months).
+- Dashboard 5 — Loan Analysis: Credit portfolio workspace featuring a parameter to toggle between Loan Amount / Number of Loans  and Principal / Interest view controls, tracking total loan volume (₹9.2B Total Amount, 22.0K Loans, ₹6.2B Paid, ₹5.1B Principal Paid, ₹1.1B Interest Paid), monthly issuance trends, loan status distributions (65% Active, 25% Closed, 7% Defaulted, 3% Written Off), product distributions (Home, Personal, Business, Gold, Auto, Education), average interest rates ( approximately 11.4% - 11.6%), and term lengths ( approximately 92 - 97 months).
 <img width="1595" height="898" alt="loan_1" src="https://github.com/user-attachments/assets/e2cac491-a9c8-4893-9702-d53324702844" />
 
 
-Dashboard 6 — Customer Support Analysis: Operational service view tracking support tickets (25.0K Total Tickets, 20.1K Resolved, 3.0K Open, 9 Days Avg Resolution Time, 3 Avg CSAT), ticket trend lines, status mix (80% Resolved, 12% Open, 8% Escalated), volume by issue type (Card Blocked, Fraud Report, Net Banking, Cheque Bounce, Loan Query), resolution time, and customer satisfaction scores by issue type.
+- Dashboard 6 — Customer Support Analysis: Operational service view tracking support tickets (25.0K Total Tickets, 20.1K Resolved, 3.0K Open, 9 Days Avg Resolution Time, 3 Avg CSAT), ticket trend lines, status mix (80% Resolved, 12% Open, 8% Escalated), volume by issue type (Card Blocked, Fraud Report, Net Banking, Cheque Bounce, Loan Query), resolution time, and customer satisfaction scores by issue type.
 <img width="1597" height="897" alt="customer_support" src="https://github.com/user-attachments/assets/4b73587b-cdc6-4147-804b-135f6561bcd0" />
 
 ## Key Business Insights
