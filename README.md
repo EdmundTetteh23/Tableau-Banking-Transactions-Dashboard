@@ -1,5 +1,5 @@
 # Banking Transactions and Customer Analytics
-A multi-view Tableau business intelligence project evaluating customer demographics, account portfolio distribution, loan performance, card transaction velocity, and customer support efficiency across SBI branch operations to streamline branch performance and enhance service delivery.
+A multi-view Tableau business intelligence project evaluating customer demographics, account portfolio distribution, loan performance, transaction and card transaction velocity, and customer support efficiency across SBI branch operations to streamline branch performance and enhance service delivery.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -64,11 +64,13 @@ The data architecture utilizes a multi-fact relational model built inside Tablea
 
 - Dashboard 2 — Account Analysis: Portfolio management view tracking account volume (95.0K Total Accounts, 80.7K Active Accounts across 12 States, 15 Cities, and 93 Branches), account type distributions (Savings, Current, Salary, Fixed Deposit, NRI), account status breakdowns (85% Active, 10% Dormant, 5% Closed), regional state/city maps, and branch-level filters.
 
-- Dashboard 3 — Card Transaction Analysis: Payment processing view equipped with an Amount / Transactions dynamic parameter toggle, displaying card metrics (65.0K Cards, 57.2K Active Cards, 1.05M Card Txns, ₹1.9B Txn Amount, 5.2K Fraud Txns), monthly transaction trends, card tier volume (Debit, Classic, Gold, Platinum), top merchant spending categories, monthly fraud volume trends, and merchant fraud distributions.
+- Dashboard 3 — Transaction Analysis: Core banking transactional view monitoring general account throughput, transaction channel preferences (Mobile Banking, Internet Banking, ATM, Branch, UPI), transaction type splits (Credit vs. Debit), high-volume transaction categories, and monthly flow trends across regional branch networks.
 
-Dashboard 4 — Loan Analysis: Credit portfolio workspace featuring an Amount / Loans metric switcher and Principal / Interest view controls, tracking total loan volume (₹9.2B Total Amount, 22.0K Loans, ₹6.2B Paid, ₹5.1B Principal Paid, ₹1.1B Interest Paid), monthly issuance trends, loan status distributions (65% Active, 25% Closed, 7% Defaulted, 3% Written Off), product distributions (Home, Personal, Business, Gold, Auto, Education), average interest rates (~11.4% - 11.6%), and term lengths (~92 - 97 months).
+- Dashboard 4 — Card Transaction Analysis: Payment processing view equipped with an Amount / Transactions dynamic parameter toggle, displaying card metrics (65.0K Cards, 57.2K Active Cards, 1.05M Card Txns, ₹1.9B Txn Amount, 5.2K Fraud Txns), monthly transaction trends, card tier volume (Debit, Classic, Gold, Platinum), top merchant spending categories, monthly fraud volume trends, and merchant fraud distributions.
 
-Dashboard 5 — Customer Support Analysis: Operational service view tracking ticket throughput (25.0K Total Tickets, 20.1K Resolved, 3.0K Open, 9 Days Avg Resolution Time, 3 Avg CSAT), ticket trend lines, status mix (80% Resolved, 12% Open, 8% Escalated), volume by issue type (Card Blocked, Fraud Report, Net Banking, Cheque Bounce, Loan Query), resolution cycle times, and customer satisfaction scores by issue type.
+Dashboard 5 — Loan Analysis: Credit portfolio workspace featuring an Amount / Loans metric switcher and Principal / Interest view controls, tracking total loan volume (₹9.2B Total Amount, 22.0K Loans, ₹6.2B Paid, ₹5.1B Principal Paid, ₹1.1B Interest Paid), monthly issuance trends, loan status distributions (65% Active, 25% Closed, 7% Defaulted, 3% Written Off), product distributions (Home, Personal, Business, Gold, Auto, Education), average interest rates (~11.4% - 11.6%), and term lengths (~92 - 97 months).
+
+Dashboard 6 — Customer Support Analysis: Operational service view tracking ticket throughput (25.0K Total Tickets, 20.1K Resolved, 3.0K Open, 9 Days Avg Resolution Time, 3 Avg CSAT), ticket trend lines, status mix (80% Resolved, 12% Open, 8% Escalated), volume by issue type (Card Blocked, Fraud Report, Net Banking, Cheque Bounce, Loan Query), resolution cycle times, and customer satisfaction scores by issue type.
 
 ## Key Business Insights
 
