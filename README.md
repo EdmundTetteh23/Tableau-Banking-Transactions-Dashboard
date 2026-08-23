@@ -14,7 +14,7 @@ A multi-view Tableau business intelligence project evaluating customer demograph
 
 
 ## Overview
-State Bank of India required a unified operational analytics workspace to connect fragmented transactional databases across branches, card processing units, loan origination desks, and customer support centers. This project structures core banking data into a relational Tableau model, delivering an executive analytics suite that enables branch managers and bank leadership to isolate operational bottlenecks, track fraud patterns, evaluate credit portfolio risk, and monitor customer service resolution performance in real time.
+State Bank of India required a unified operational analytics workspace to connect fragmented transactional databases across branches, card processing units, loan origination desks, and customer support centers. This project structures core banking data into a relational Tableau model, delivering an executive analytics suite that enables the bank's leadership to isolate operational bottlenecks, track fraud patterns, evaluate credit portfolio risk, and monitor customer service resolution performance in real time.
 
 ## Project Brief and Problem Statement
 ### Project Brief
