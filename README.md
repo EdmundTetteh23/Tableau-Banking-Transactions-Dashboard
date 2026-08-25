@@ -98,5 +98,5 @@ The data architecture utilizes a multi-fact relational model built inside Tablea
 
 ## Tech Stack
 - Data Modeling: Tableau Logical Layer
-- Calculations & Metrics: Tableau Calculated Fields, Dynamic Parameters
+- Calculations & Metrics: Tableau Calculated Fields and Dynamic Parameters
 - Visualization: Tableau Desktop
