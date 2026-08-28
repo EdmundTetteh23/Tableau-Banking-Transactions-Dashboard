@@ -60,11 +60,17 @@ The data architecture utilizes a multi-fact relational model built inside Tablea
 - dim_employees: Branch staffing directory (employee_id, branch_id, name, role, salary, hire_date).
 
 ## Tableau Calculations and Business Logic
+Analytical logic and metric parameter switching implemented via dynamic Tableau Calculated Fields and Dynamic Parameters.
+<img width="560" height="657" alt="Card Parameter" src="https://github.com/user-attachments/assets/d1954cf2-4be8-438e-bbcd-e843b6790398" />
+
 <img width="736" height="313" alt="Screenshot 2026-08-23 215208" src="https://github.com/user-attachments/assets/be15c4f0-e405-406b-8464-165bed60f860" />
 
 <img width="738" height="314" alt="Screenshot 2026-08-23 215233" src="https://github.com/user-attachments/assets/ace916a4-c696-4ed5-a200-0a8ee0bf367b" />
 
 <img width="736" height="315" alt="Screenshot 2026-08-23 215257" src="https://github.com/user-attachments/assets/672f4791-da78-4a33-8a78-1a7c75ed5efe" />
+
+<img width="560" height="661" alt="Loan Parameter" src="https://github.com/user-attachments/assets/010ff91b-c0a2-42eb-a002-fddc67feeb8f" />
+
 
 ## Dashboards and Visualizations
 - Dashboard 1 — Customer Demographics Analysis: Executive overview displaying core customer metrics (60.0K Total Customers, 22.0K Customers with Loans, ₹1.8M Avg Income, 600 Avg Credit Score, 49 Avg Age), state map distributions, gender split (52% Male, 46% Female, 2% Other), age bracket breakdowns, occupation density, and branch customer counts.
